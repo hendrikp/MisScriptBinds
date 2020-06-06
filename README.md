@@ -8,7 +8,7 @@ This list has been exported through a simple RegEx search and thus doesn't conta
   * Function name, parameter names and optional paramters through: `SCRIPT_REG.*FUNC` then replace `\\.*` with nothing, `\(.*\)*:` with `:`, `.*\\`, `ScriptBind_`, and `.cpp` with nothing, `:\s*` with `: ` 
     * https://github.com/hendrikp/MisScriptBinds/blob/master/Listing_ScriptReg.txt
   
-(Keep in mind some exceptions manually parse parameters thus, dont have a parameter listing)
+(Keep in mind some exceptions manually parse parameters thus, dont have a parameter listing. Others are completly obsolete as not used by Miscreated e.g. the whole `AI` section is replaced by the `Kythera` one)
 
 Find information on functionalities added from modding requests here:
 * https://docs.google.com/spreadsheets/d/1xDgNs_XqrY1U0swqOLfBuNdW5uXbbjKYg2xTWBFCPGg/edit?ouid=113269844619596256002&usp=sheets_home&ths=true
