@@ -11,7 +11,7 @@ This list has been exported through a simple RegEx search and thus doesn't conta
 (Keep in mind some exceptions manually parse parameters thus, dont have a parameter listing. Others are completly obsolete as not used by Miscreated e.g. the whole `AI` section is replaced by the `Kythera` one)
 
 When writing Lua code always use an editor that supports syntax checking for it:
-* Which can be retrieved here: https://studio.zerobrane.com/download?not-this-time
+* ZeroBrane Studio - which can be retrieved here: https://studio.zerobrane.com/download?not-this-time
 * An alternative is VSCode with Lua addins e.g. https://marketplace.visualstudio.com/items?itemName=sumneko.lua
 
 Find information on functionalities added from modding requests here:
