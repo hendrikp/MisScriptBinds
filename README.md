@@ -8,7 +8,10 @@ This list has been exported through a simple RegEx search and thus doesn't conta
   * Function name, parameter names and optional paramters through: `SCRIPT_REG.*FUNC` then replace `\\.*` with nothing, `\(.*\)*:` with `:`, `.*\\`, `ScriptBind_`, and `.cpp` with nothing, `:\s*` with `: ` 
     * https://github.com/hendrikp/MisScriptBinds/blob/master/Listing_ScriptReg.txt
   
-(Keep in mind some exceptions manually parse parameters thus, dont have a parameter listing. Others are completly obsolete as not used by Miscreated e.g. the whole `AI` section is replaced by the `Kythera` one)
+Keep in mind some exceptions:
+* Some functions manually pars parameters thus, dont have a parameter listing
+* Others are completly obsolete as not used by Miscreated e.g. the whole `AI` section is replaced by the `Kythera` one
+* Some C++ systems expect global Lua functions with defined names, instead of doing a whole ScriptBind (those functions you will find in the `GameSDK\Scripts` folder)
 
 When writing Lua code always use an editor that supports syntax checking for it:
 * ZeroBrane Studio - which can be retrieved here: https://studio.zerobrane.com/download?not-this-time
