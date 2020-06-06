@@ -5,7 +5,7 @@ This list has been exported through a simple RegEx search and thus doesn't conta
 * It was created with the regular expressions you can use yourself on other CryEngine repositories
   * Class, Function name and parameter names, types through: `int.*ScriptBind_(.*\:\:.*)\)` then replace `.*ScriptBind_` with nothing
     * https://github.com/hendrikp/MisScriptBinds/blob/master/Listing_ScriptBind.txt
-  * Function name, parameter names and optional paramters through: `SCRIPT_REG.*FUNC` then replace `\\.*` with nothing
+  * Function name, parameter names and optional paramters through: `SCRIPT_REG.*FUNC` then replace `\\.*` with nothing, `\(.*\)*:` with `:`, `.*\\`, `ScriptBind_`, and `.cpp` with nothing, `:\s*` with `: ` 
     * https://github.com/hendrikp/MisScriptBinds/blob/master/Listing_ScriptReg.txt
   
 (Keep in mind some exceptions manually parse parameters thus, dont have a parameter listing)
