@@ -9,7 +9,7 @@ This list has been exported through a simple RegEx search and thus doesn't conta
     * https://github.com/hendrikp/MisScriptBinds/blob/master/Listing_ScriptReg.txt
   
 Keep in mind some exceptions:
-* Some functions manually pars parameters thus, dont have a parameter listing
+* Some functions manually parse parameters thus, dont have a parameter listing
 * Others are completly obsolete as not used by Miscreated e.g. the whole `AI` section is replaced by the `Kythera` one
 * Some C++ systems expect global Lua functions with defined names, instead of doing a whole ScriptBind (those functions you will find in the `GameSDK\Scripts` folder)
 
