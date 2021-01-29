@@ -22,7 +22,7 @@ Find information on functionalities added from modding requests here:
 
 You find usage samples in the `GameSDK\Scripts` subfolders in the .pak files. Additional information about return values or inner workings of CryEngine based binds can be found here on GitHub by simply searching for `ScriptBind` + `<the function>`.
 * Or view another listing created by a modder here: https://gitlab.com/mismodding/miscreatedluadocs/-/tree/master/public
-* If you use VSCode with sumneko and emmylua then a base setup for a autocomplete can be found here: https://gitlab.com/mismodding/workspace/-/tree/master/libs
+* If you use VSCode with sumneko and emmylua then a base setup for a autocomplete can be found here: [MisLuaApi](https://github.com/Therosin/MisLuaApi)
 * Further Information for experts you gather by dumping `_G` or specific classes at game runtime in Lua to the console. (Keep in mind your dumper needs a visited markup table to avoid infinite recursions)
   * This way you find information only created internally at runtime or through Lua scripts in the .pak folder
 
